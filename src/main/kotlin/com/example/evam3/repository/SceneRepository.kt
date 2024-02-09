@@ -1,13 +1,12 @@
 package com.example.evam3.repository
 
-
-import com.example.evam3.model.Film
+import com.example.evam3.model.Scene
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
-
 @Repository
 
-interface FilmRepository:JpaRepository<Film, Long> {
-    fun findById(id: Long?):Film?
 
+
+interface SceneRepository : JpaRepository<Scene, Long?> {
+    fun findById(id: Long?):Scene?
 }
