@@ -20,4 +20,5 @@ class Characters{
     @Column (name="scene_id")
     var sceneid: Long? = null
 
+
 }
