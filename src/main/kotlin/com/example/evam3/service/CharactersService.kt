@@ -54,6 +54,7 @@ class CharactersService {
             throw ResponseStatusException(HttpStatus.NOT_FOUND,ex.message)
         }
     }*/
+
     fun update(characters: Characters): Characters{
         try {
             charactersRepository.findById(characters.id)

@@ -19,4 +19,5 @@ class Characters{
     var cost: BigDecimal? = null   //address
     @Column (name="scene_id")
     var sceneid: Long? = null
+
 }
